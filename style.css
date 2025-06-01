@@ -1,52 +1,28 @@
-!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Giovanna Maria Langiu - Sito Web Personale</title>
-<link rel="stylesheet" href="style.css" />
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
 
-</head>
-<body>
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-<nav>
-<ul>
-<li><a href="index.html" class="link-evidenziato">Home</a></li>
-<li><a href="curriculum.html">Curriculum</a></li>
-<li><a href="impostor.html">Recensione Impostor</a></li>
-</ul>
-</nav>
+nav {
+  background: #a7c4bc; /* Verde mela chiaro */
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
 
-<div class="container">
-<h1>Benvenuta/o nel mio sito!</h1>
-<p>Ciao, mi chiamo Giovanna Maria Langiu. Questo è il mio spazio personale dove condivido pensieri, idee e progetti che mi appassionano.</p>
-
-<h2>Presentazione</h2>
-<p>Sono una persona curiosa e creativa, con una grande passione per l'informatica e la comunicazione digitale. Mi piace esplorare nuove tecnologie e trovare modi innovativi per esprimere idee complesse in modo semplice e accessibile.</p>
-<p>Attualmente sto approfondendo le mie competenze nello sviluppo web e nella creazione di contenuti digitali coinvolgenti.</p>
-
-<h2>Curriculum</h2>
-<p>Vuoi saperne di più sul mio percorso professionale e accademico? Visita la pagina del mio <a href="curriculum.html">curriculum online</a>.</p>
-
-<h2>Articolo</h2>
-<p>Recentemente ho letto e recensito il romanzo <em>Impostor</em> di Cait Levin, un'opera che mi ha particolarmente colpito per il modo in cui unisce tematiche informatiche con riflessioni sulla crescita personale. <a href="impostor.html">Leggi la mia recensione</a> e fammi sapere cosa ne pensi!</p>
-</div>
-
-</body>
-</html>
-
-  
-
-
-
-
-
-
-
-
-
- 
-
-
-
-   
+nav ul {
+  list-style: none
